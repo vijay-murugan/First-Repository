@@ -63,6 +63,7 @@ void list_delete_front(List* ptr_list)
     ptr_list->number_of_Nodes --;
     ptr_list->head = ptr_list->head->link;
     free(temp_node);
+    printf("Hello world");
 }
 
 
